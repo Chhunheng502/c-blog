@@ -1,0 +1,110 @@
+
+* {box-sizing: border-box;}
+
+.center-item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(31, 110, 206);
+}
+
+.blog-layout {
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 10px 40px;
+    background-color: wheat;
+}
+
+.writer-profile {
+    display: flex;
+    align-items: center;
+}
+
+.writer-profile h5 {
+    margin-bottom: 0;
+}
+
+.writer-profile p {
+    margin-top: 0;
+    color: gray;
+}
+
+.writer-profile img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+input.form-control {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+}
+
+button.form-control {
+    padding: 10px;
+    background-color: rgb(240, 188, 75);
+    border-color: white;
+}
+
+.round-50 {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.excerpt {
+  display: block; /* Fallback for non-webkit */
+  display: -webkit-box;
+  height: 16*1.4*3px; /* Fallback for non-webkit */
+  font-size: 16px; /* default size of tag p */
+  line-height: 1.4;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* .navbar {
+    
+} */
+
+.navbar ul {
+    padding: 0px;
+    margin: 0px;
+    /* display: flex; */
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(240, 188, 75);
+}
+
+.navbar ul li {
+    display: inline;
+    float: left;
+}
+
+.navbar ul li a {
+    padding: 14px 16px;
+    display: block;
+    text-align: center;
+}
+
+.navbar ul li a:hover:not(.disabled) {
+    color: white;
+    background-color: rgb(164, 78, 16);
+}
+
+
+
+
+

@@ -1,0 +1,49 @@
+.background-image {
+    background-image: url('/img/pexels-pixabay-461940.jpg');
+    background-size: cover;
+}
+
+.font-style {
+    color: white;
+}
+
+/* This class must be reviewed. (bad practice) */
+.form-inline {
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+}
+
+.form-style {
+    width: 400px;
+    padding: 10px 5px;
+    text-align: center; /* This takes effect only on div or input (not text in input) */
+    background-color: rgb(240, 188, 75);
+    border-radius: 10px;
+}
+
+.form-style input[type=text], input[type=email], input[type=password] {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 10px;
+    text-align: center;
+    box-sizing: border-box; /* This wraps the form in the container */
+    border: none;
+    border-bottom: 3px solid rgb(164, 78, 16);
+}
+
+.form-style button {
+    padding: 10px 15px;
+    margin: 5px;
+    color: white;
+    background-color:rgb(164, 78, 16);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.form-style button:hover {
+    color: rgb(164, 78, 16);
+    background-color:white;
+}
+
